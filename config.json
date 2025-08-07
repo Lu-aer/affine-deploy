@@ -1,1 +1,28 @@
-
+{
+  "$schema": "https://raw.githubusercontent.com/toeverything/AFFiNE/master/packages/config/src/config.schema.json",
+  "server": {
+    "name": "ΛFFiNE Personal Knowledge OS",
+    "path": "/",
+    "host": "0.0.0.0",
+    "port": 3010
+  },
+  "database": {
+    "url": "postgres://affine:affinepass@postgres:5432/affine"
+  },
+  "redis": {
+    "host": "redis",
+    "port": 6379
+  },
+  "storage": {
+    "provider": "local",
+    "local": {
+      "path": "/root/.affine/storage"
+    }
+  },
+  "copilot": {
+    "enabled": false
+  },
+  "features": {
+    "earlyAccess": false
+  }
+}
