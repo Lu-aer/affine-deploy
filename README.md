@@ -4,5 +4,6 @@ Transform any VPS into your personal AFFiNE knowledge operating system in under 
 
 ## Quick Start
 
-**One-command deployment:**
+curl -s https://raw.githubusercontent.com/Lu-aer/affine-deploy/main/deploy.sh | sudo bash
+
 
