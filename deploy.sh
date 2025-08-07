@@ -42,10 +42,10 @@ cd /opt/affine
 
 # Download configuration files
 echo -e "${BLUE}📥 Downloading AFFiNE configuration...${NC}"
-curl -sO https://raw.githubusercontent.com/yourusername/affine-deploy/main/docker-compose.yml
-curl -sO https://raw.githubusercontent.com/yourusername/affine-deploy/main/config.json
-curl -sO https://raw.githubusercontent.com/yourusername/affine-deploy/main/backup.sh
-curl -sO https://raw.githubusercontent.com/yourusername/affine-deploy/main/security.sh
+curl -sO https://raw.githubusercontent.com/Lu-aer/affine-deploy/main/docker-compose.yml
+curl -sO https://raw.githubusercontent.com/Lu-aer/affine-deploy/main/config.json
+curl -sO https://raw.githubusercontent.com/Lu-aer/affine-deploy/main/backup.sh
+curl -sO https://raw.githubusercontent.com/Lu-aer/affine-deploy/main/security.sh
 
 # Move config file to correct location
 mv config.json config/
